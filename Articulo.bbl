@@ -5,6 +5,19 @@
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
 
+\bibitem{Peskin:1995ev}
+\bibinfo{author}{Peskin, M.~E.} \& \bibinfo{author}{Schroeder, D.~V.}
+\newblock \emph{\bibinfo{title}{{An Introduction to quantum field theory}}}
+  (\bibinfo{publisher}{Addison-Wesley}, \bibinfo{address}{Reading, USA},
+  \bibinfo{year}{1995}).
+
+\bibitem{particle_data_group_review_2018}
+\bibinfo{author}{{Particle Data Group}} \emph{et~al.}
+\newblock \bibinfo{title}{Review of {Particle} {Physics}}.
+\newblock \emph{\bibinfo{journal}{Phys. Rev. D}} \textbf{\bibinfo{volume}{98}},
+  \bibinfo{pages}{030001} (\bibinfo{year}{2018}).
+\newblock \bibinfo{note}{Publisher: American Physical Society}.
+
 \bibitem{feynman_simulating_1982}
 \bibinfo{author}{Feynman, R.~P.}
 \newblock \bibinfo{title}{Simulating physics with computers}.
@@ -48,13 +61,6 @@
   technologies}.
 \newblock \emph{\bibinfo{journal}{Eur. Phys. J. D}}
   \textbf{\bibinfo{volume}{74}}, \bibinfo{pages}{165} (\bibinfo{year}{2020}).
-
-\bibitem{particle_data_group_review_2018}
-\bibinfo{author}{{Particle Data Group}} \emph{et~al.}
-\newblock \bibinfo{title}{Review of {Particle} {Physics}}.
-\newblock \emph{\bibinfo{journal}{Phys. Rev. D}} \textbf{\bibinfo{volume}{98}},
-  \bibinfo{pages}{030001} (\bibinfo{year}{2018}).
-\newblock \bibinfo{note}{Publisher: American Physical Society}.
 
 \bibitem{humble_snowmass_2022}
 \bibinfo{author}{Humble, T.~S.} \emph{et~al.}

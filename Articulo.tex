@@ -1,30 +1,40 @@
 \documentclass[a4paper,10pt]{article}
 
 \usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
 \usepackage{multicol}
 \usepackage{blindtext}
 \setlength{\parindent}{0pt}
 \setlength{\columnsep}{1cm}
 \usepackage{anysize}
+\marginsize{2.5cm}{2.5cm}{1.5cm}{1.5cm}
 
 
 \begin{document}
 
-\title{Quantum Chromodynamics and \\ Quantum computation and simulation}
+\title{Quantum Chromodynamics and \\ Quantum Computation and Simulation}
 \author{Juan José Gálvez Viruet}
 \date{\today}
 \maketitle
 
 \begin{abstract}
-\noindent \blindtext
+\noindent Gracias a un rápido desarrollo experimental englobado dentro de las <<tecnologías cuánticas>> se ha hecho posible la construcción de sistemas, como las redes de iones, los semiconductores o las <<optical lattices>>, en los que las interacciones entre sus componentes se pueden controlar de manera muy precisa. Estas interacciones vienen descritas por la mecánica cuántica, por lo que los sistemas en su conjunto ofrecen diversas oportunidades para estudiar efectos cuánticos, como el entrelazamiento, en áreas como la computación o la simulación.
+
+Entre los diversos campos que pueden beneficiarse del desarrollo de estas tecnologías esta la física de partículas, donde sus componentes interacciones de maneras muy diversas, todas descritas por teorías cuánticas de campos basadas en algún grupo de simetría gauge. La Cromodinámica Cuántica (QCD) es la teoría de la interacción fuerte, encargada de mantener al núcleo atómico unido, y su estudio es fundamental para entender la fenomenología del Modelo Estándar y la comprensión de los primeros instantes del cosmos. Debido a su complejidad no puede abordarse desde una única perspectiva y se trabaja o bien con teoría de perturbaciones para caracterizar su régimen de altas energías o bien con simulaciones clásicas basadas en métodos Monte Carlo para fenómenos a bajas energías. A continuación nos centraremos en definir los límites de la computación clásica y en mostrar a las nuevas tecnologías cuánticas como posibles vías para superarlos.
 \end{abstract}
 
 \begin{multicols}{2}
-\section{Introduction} 
- 
-\blindtext
+\section{Introducción} 
+Las teorías cuánticas de campos con simetría gauge (o teorías gauge) son la base sobre la que se construye el Modelo Estándar de partículas \cite{Peskin:1995ev}. Su expresión más fundamental se da en forma de funciones Lagrangianas o Hamiltonianas, con términos cinéticos y de interacción construidos de tal manera que se respeta cierto tipo de transformación llamada simetría gauge. Las teorías gauge que describen las interacciones fundamentales electromagnética (Electrodinámica Cuántica, QED) y fuerte (Cromodinámica Cuántica, QCD) son especialmente importantes y se basan en los grupos de simetría (abeliano) U(1) y (no abeliano) SU(3).
 
-\blindtext
+Una de las características más importantes de las teorías cuánticas de campos consiste en que la intensidad de la interacción entre partículas cambia según la escala de energía del proceso: Para teoría abelianas como QED la interacción puede tratarse como una pequeña perturbación a la dinámica libre de las partículas hasta escalas de energía medias y bajas, mientras que para el caso de teorías no abelianas como QCD el régimen perturbativo se da solo a altas energías, mientras que a medias y bajas la matería está fuertemente acoplada, a lo que se denomina \textit{libertad asintótica}.
+
+La libertad asintótica de QCD impide el uso de métodos perturbativos para el estudio de cualquier proceso dinámico entre partículas que interacciones fuertemente a bajas energías, entre ellos la formación y dinámica de hadrones como los protones y neutrones. En estos casos se usa un enfoque distinto denominado \textit{Lattice QCD} \cite{particle_data_group_review_2018} que consiste en la codificación de las partículas y sus interacciones en una red de puntos y conexiones, lo que permite generar todas las posibles configuraciones que se dan en un proceso y mediante un posterior estudio estadístico la obtención de obervables físicos útiles. 
+
+Las configuraciones de la red se generan siguiendo una distribución de probabilidad que se obtiene a partir del Lagrangiano de la teoría mediante un método denominado \textit{importance sampling}, por el que solo se generan los estados más probables. 
+
+
+
 \section{First section}
 \blindtext
 
