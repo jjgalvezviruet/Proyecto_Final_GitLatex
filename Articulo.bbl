@@ -18,6 +18,14 @@
   \bibinfo{pages}{030001} (\bibinfo{year}{2018}).
 \newblock \bibinfo{note}{Publisher: American Physical Society}.
 
+\bibitem{usqcd_collaboration_hot-dense_2019}
+\bibinfo{author}{{USQCD Collaboration}}, \bibinfo{author}{Bazavov, A.},
+  \bibinfo{author}{Karsch, F.}, \bibinfo{author}{Mukherjee, S.} \&
+  \bibinfo{author}{Petreczky, P.}
+\newblock \bibinfo{title}{Hot-dense {Lattice} {QCD}}.
+\newblock \emph{\bibinfo{journal}{Eur. Phys. J. A}}
+  \textbf{\bibinfo{volume}{55}}, \bibinfo{pages}{194} (\bibinfo{year}{2019}).
+
 \bibitem{feynman_simulating_1982}
 \bibinfo{author}{Feynman, R.~P.}
 \newblock \bibinfo{title}{Simulating physics with computers}.
@@ -25,21 +33,21 @@
   \textbf{\bibinfo{volume}{21}}, \bibinfo{pages}{467--488}
   (\bibinfo{year}{1982}).
 
+\bibitem{busza_heavy_2018}
+\bibinfo{author}{Busza, W.}, \bibinfo{author}{Rajagopal, K.} \&
+  \bibinfo{author}{van~der Schee, W.}
+\newblock \bibinfo{title}{Heavy {Ion} {Collisions}: {The} {Big} {Picture} and
+  the {Big} {Questions}}.
+\newblock \emph{\bibinfo{journal}{Annu. Rev. Nucl. Part. Sci.}}
+  \textbf{\bibinfo{volume}{68}}, \bibinfo{pages}{339--376}
+  (\bibinfo{year}{2018}).
+
 \bibitem{ladd_quantum_2010}
 \bibinfo{author}{Ladd, T.~D.} \emph{et~al.}
 \newblock \bibinfo{title}{Quantum computers}.
 \newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{464}},
   \bibinfo{pages}{45--53} (\bibinfo{year}{2010}).
 \newblock \bibinfo{note}{Number: 7285 Publisher: Nature Publishing Group}.
-
-\bibitem{de_forcrand_simulating_2010}
-\bibinfo{author}{de~Forcrand, P.}
-\newblock \bibinfo{title}{Simulating {QCD} at finite density}.
-\newblock In \emph{\bibinfo{booktitle}{Proceedings of {The} {XXVII}
-  {International} {Symposium} on {Lattice} {Field} {Theory} {\textemdash}
-  {PoS}({LAT2009})}}, \bibinfo{pages}{010} (\bibinfo{publisher}{Sissa
-  Medialab}, \bibinfo{address}{Peking University, Beijing, China},
-  \bibinfo{year}{2010}).
 
 \bibitem{cirac_goals_2012}
 \bibinfo{author}{Cirac, J.~I.} \& \bibinfo{author}{Zoller, P.}
@@ -54,75 +62,6 @@
   few-qubit quantum computer}.
 \newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{534}},
   \bibinfo{pages}{516--519} (\bibinfo{year}{2016}).
-
-\bibitem{banuls_simulating_2020}
-\bibinfo{author}{Ba{\~n}uls, M.~C.} \emph{et~al.}
-\newblock \bibinfo{title}{Simulating lattice gauge theories within quantum
-  technologies}.
-\newblock \emph{\bibinfo{journal}{Eur. Phys. J. D}}
-  \textbf{\bibinfo{volume}{74}}, \bibinfo{pages}{165} (\bibinfo{year}{2020}).
-
-\bibitem{humble_snowmass_2022}
-\bibinfo{author}{Humble, T.~S.} \emph{et~al.}
-\newblock \bibinfo{title}{Snowmass {White} {Paper}: {Quantum} {Computing}
-  {Systems} and {Software} for {High}-energy {Physics} {Research}}.
-\newblock \emph{\bibinfo{journal}{arXiv:2203.07091 [quant-ph]}}
-  (\bibinfo{year}{2022}).
-\newblock \bibinfo{note}{ArXiv: 2203.07091}.
-
-\bibitem{kan_lattice_2022}
-\bibinfo{author}{Kan, A.} \& \bibinfo{author}{Nam, Y.}
-\newblock \bibinfo{title}{Lattice {Quantum} {Chromodynamics} and
-  {Electrodynamics} on a {Universal} {Quantum} {Computer}}.
-\newblock \emph{\bibinfo{journal}{arXiv:2107.12769 [hep-lat,
-  physics:quant-ph]}}  (\bibinfo{year}{2022}).
-\newblock \bibinfo{note}{ArXiv: 2107.12769}.
-
-\bibitem{paulson_simulating_2021}
-\bibinfo{author}{Paulson, D.} \emph{et~al.}
-\newblock \bibinfo{title}{Simulating {2D} {Effects} in {Lattice} {Gauge}
-  {Theories} on a {Quantum} {Computer}}.
-\newblock \emph{\bibinfo{journal}{PRX Quantum}} \textbf{\bibinfo{volume}{2}},
-  \bibinfo{pages}{030334} (\bibinfo{year}{2021}).
-
-\bibitem{atas_su2_2021}
-\bibinfo{author}{Atas, Y.~Y.} \emph{et~al.}
-\newblock \bibinfo{title}{{SU}(2) hadrons on a quantum computer via a
-  variational approach}.
-\newblock \emph{\bibinfo{journal}{Nat Commun}} \textbf{\bibinfo{volume}{12}},
-  \bibinfo{pages}{6499} (\bibinfo{year}{2021}).
-
-\bibitem{troyer_computational_2005}
-\bibinfo{author}{Troyer, M.} \& \bibinfo{author}{Wiese, U.-J.}
-\newblock \bibinfo{title}{Computational {Complexity} and {Fundamental}
-  {Limitations} to {Fermionic} {Quantum} {Monte} {Carlo} {Simulations}}.
-\newblock \emph{\bibinfo{journal}{Phys. Rev. Lett.}}
-  \textbf{\bibinfo{volume}{94}}, \bibinfo{pages}{170201}
-  (\bibinfo{year}{2005}).
-
-\bibitem{peruzzo_variational_2014}
-\bibinfo{author}{Peruzzo, A.} \emph{et~al.}
-\newblock \bibinfo{title}{A variational eigenvalue solver on a photonic quantum
-  processor}.
-\newblock \emph{\bibinfo{journal}{Nat Commun}} \textbf{\bibinfo{volume}{5}},
-  \bibinfo{pages}{4213} (\bibinfo{year}{2014}).
-
-\bibitem{busza_heavy_2018}
-\bibinfo{author}{Busza, W.}, \bibinfo{author}{Rajagopal, K.} \&
-  \bibinfo{author}{van~der Schee, W.}
-\newblock \bibinfo{title}{Heavy {Ion} {Collisions}: {The} {Big} {Picture} and
-  the {Big} {Questions}}.
-\newblock \emph{\bibinfo{journal}{Annu. Rev. Nucl. Part. Sci.}}
-  \textbf{\bibinfo{volume}{68}}, \bibinfo{pages}{339--376}
-  (\bibinfo{year}{2018}).
-
-\bibitem{usqcd_collaboration_hot-dense_2019}
-\bibinfo{author}{{USQCD Collaboration}}, \bibinfo{author}{Bazavov, A.},
-  \bibinfo{author}{Karsch, F.}, \bibinfo{author}{Mukherjee, S.} \&
-  \bibinfo{author}{Petreczky, P.}
-\newblock \bibinfo{title}{Hot-dense {Lattice} {QCD}}.
-\newblock \emph{\bibinfo{journal}{Eur. Phys. J. A}}
-  \textbf{\bibinfo{volume}{55}}, \bibinfo{pages}{194} (\bibinfo{year}{2019}).
 
 \bibitem{davoudi_towards_2020}
 \bibinfo{author}{Davoudi, Z.} \emph{et~al.}
@@ -141,11 +80,19 @@
   \bibinfo{pages}{030334} (\bibinfo{year}{2021}).
 \newblock \bibinfo{note}{ArXiv:2008.09252 [hep-lat, physics:quant-ph]}.
 
-\bibitem{humble_snowmass_2022-1}
-\bibinfo{author}{Humble, T.~S.} \emph{et~al.}
-\newblock \bibinfo{title}{Snowmass {White} {Paper}: {Quantum} {Computing}
-  {Systems} and {Software} for {High}-energy {Physics} {Research}}
-  (\bibinfo{year}{2022}).
-\newblock \bibinfo{note}{Number: arXiv:2203.07091 arXiv:2203.07091 [quant-ph]}.
+\bibitem{banuls_simulating_2020}
+\bibinfo{author}{Ba{\~n}uls, M.~C.} \emph{et~al.}
+\newblock \bibinfo{title}{Simulating lattice gauge theories within quantum
+  technologies}.
+\newblock \emph{\bibinfo{journal}{Eur. Phys. J. D}}
+  \textbf{\bibinfo{volume}{74}}, \bibinfo{pages}{165} (\bibinfo{year}{2020}).
+
+\bibitem{kan_lattice_2022}
+\bibinfo{author}{Kan, A.} \& \bibinfo{author}{Nam, Y.}
+\newblock \bibinfo{title}{Lattice {Quantum} {Chromodynamics} and
+  {Electrodynamics} on a {Universal} {Quantum} {Computer}}.
+\newblock \emph{\bibinfo{journal}{arXiv:2107.12769 [hep-lat,
+  physics:quant-ph]}}  (\bibinfo{year}{2022}).
+\newblock \bibinfo{note}{ArXiv: 2107.12769}.
 
 \end{thebibliography}

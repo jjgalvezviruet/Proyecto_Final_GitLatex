@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Articulo.aux
 The style file: naturemag.bst
 Database file #1: QCD&QComputation.bib
-You've used 19 entries,
+You've used 12 entries,
             2348 wiz_defined-function locations,
-            1096 strings with 17381 characters,
-and the built_in function-call counts, 7205 in all, are:
-= -- 500
-> -- 160
+            1061 strings with 15573 characters,
+and the built_in function-call counts, 4724 in all, are:
+= -- 335
+> -- 108
 < -- 0
-+ -- 80
-- -- 40
-* -- 890
-:= -- 800
-add.period$ -- 63
-call.type$ -- 19
-change.case$ -- 28
++ -- 54
+- -- 27
+* -- 598
+:= -- 527
+add.period$ -- 41
+call.type$ -- 12
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 682
-empty$ -- 682
-format.name$ -- 57
-if$ -- 1439
+cite$ -- 12
+duplicate$ -- 436
+empty$ -- 435
+format.name$ -- 38
+if$ -- 932
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 157
-newline$ -- 109
-num.names$ -- 19
-pop$ -- 112
+int.to.str$ -- 12
+missing$ -- 103
+newline$ -- 73
+num.names$ -- 12
+pop$ -- 62
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 107
+skip$ -- 63
 stack$ -- 0
-substring$ -- 273
-swap$ -- 665
+substring$ -- 203
+swap$ -- 435
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 39
-width$ -- 21
-write$ -- 224
+while$ -- 27
+width$ -- 14
+write$ -- 147
