@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.4)  17 MAY 2022 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.4)  17 MAY 2022 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Articulo.tex
-(./Articulo.tex
+**M6_Galvez_Viruet_JuanJose.tex
+(./M6_Galvez_Viruet_JuanJose.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -253,11 +253,11 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count285
 \l__pdf_internal_box=\box95
 )
-(./Articulo.aux
+(./M6_Galvez_Viruet_JuanJose.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
-\openout1 = `Articulo.aux'.
+\openout1 = `M6_Galvez_Viruet_JuanJose.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -408,24 +408,24 @@ Overfull \hbox (4.55122pt too wide) in paragraph at lines 83--109
 [][] 
  []
 
-(./Articulo.bbl
+(./M6_Galvez_Viruet_JuanJose.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 22--28
 []\OT1/cmr/m/n/10 USQCD Co-lla-bo-ra-tion, Ba-za-vov, A.,
  []
 
 [3 <./Imágenes/Creación pares partícula-antipartícula.jpg>]) [4]
-(./Articulo.aux
+(./M6_Galvez_Viruet_JuanJose.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 ) ) 
 Here is how much of TeX's memory you used:
  3728 strings out of 481239
- 53419 string characters out of 5920378
- 325463 words of memory out of 5000000
+ 53640 string characters out of 5920378
+ 325480 words of memory out of 5000000
  18928 multiletter control sequences out of 15000+600000
  538818 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,11n,35p,1002b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,11n,35p,1019b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texl
@@ -442,7 +442,7 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/latxfont/lasy9.pfb>
-Output written on Articulo.pdf (4 pages, 321738 bytes).
+Output written on M6_Galvez_Viruet_JuanJose.pdf (4 pages, 321738 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
