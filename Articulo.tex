@@ -42,7 +42,7 @@ Las configuraciones de la red se generan siguiendo una distribución de probabil
 Estas limitaciones son inherentes al uso de métodos de generación de distribuciones de probabilidad clásicos y ya fue señalado por Feynman \cite{feynman_simulating_1982} como una de las posibles razones para el desarrollo de computadores basados en las leyes de la mecánica cuántica, que hoy en día empiezan a ser una realidad con la que se espera superar las barreras actuales.
 
 \section{El diagrama de fases de QCD}
-Uno de los objetivos de investigación a largo plazo de la comunidad de física nuclear y de altas energías es la exploración del diagrama de fases de la materia que interacciona fuertemente (figura \ref{QCDphase}). Fruto de esta investigación se ha descubierto por ejemplo que la transición entre la materia hadrónica (estados compuestos en QCD) y la fase de plasma de quarks y gluones a bajo potencial químico es continua, mientras que se sospecha que a valores más altos de este si que ocurra una transición de fase con un punto crítico.
+Uno de los objetivos de investigación a largo plazo de la comunidad de física nuclear y de altas energías es la exploración del diagrama de fases de QCD (figura \ref{QCDphase}). Fruto de esta investigación se ha descubierto, por ejemplo, que la transición entre la materia hadrónica formada por estados ligados de partículas (quarks) y la fase de plasma de partículas y meadiadores (gluones) es continua cuando el número de partículas y antipartículas es el mismo, mientras que se sospecha que con una desigualdad suficientemente alta entre quarks y antiquarks ocurriría una transición de fase, por lo que debe existir un punto crítico.
 
 \begin{figure}[H]
 \begin{center}
@@ -54,24 +54,24 @@ Uno de los objetivos de investigación a largo plazo de la comunidad de física 
 
 Conocer el diagrama de QCD, y en especial la parte correspondiente al plasma de quarks y gluones, es importante porque se supone que esta fue la fase de la materia en los primeros instantes del universo y se cree que podría ser el material del que están compuestos los núcleos de las estrellas de neutrones \cite{busza_heavy_2018}.
 
-Los métodos basados en lattice son aplcicables en la región con potencial químico ($\mu$) igual a cero, es decir, con igual número de partículas y antipartículas y aunque existen vías de ampliarlos para abarcar la región cercana al eje $\mu=0$ \cite{usqcd_collaboration_hot-dense_2019}, el estudio de la dinámica de la materia nuclear y de la posible fase superconductora esta fuera de su alcance.
+Los métodos basados en lattice son aplcicables en la región con potencial químico ($\mu$) igual a cero, es decir, con igual número de partículas y antipartículas y aunque existen vías de ampliarlos para abarcar la región cercana al eje $\mu=0$ \cite{usqcd_collaboration_hot-dense_2019}, el estudio de la dinámica de la materia nuclear y de la posible fase superconductora están fuera de su alcance.
 
 \section{Computación y simulación cuánticas}
-En la sección anterior hemos presentado un ámbito en el que la computación clásica se enfrenta a imporatantes limitaciones. Una forma de superarlas, o evitarlas, es el uso de sistemas gobernados por las leyes de la mecánica cuántica para simular otros sistemas a su vez gobernados por las mismas leyes. Entre el ``hardware'' más prometedor para conseguir este obetivo están las trampas de iones, la manipulación de fotones, los superconductores y los sólidos dopados \cite{ladd_quantum_2010}.
+En la sección anterior hemos presentado un ámbito en el que la computación clásica se enfrenta a importantes limitaciones. Una forma de superarlas, o evitarlas, es el uso de sistemas gobernados por las leyes de la mecánica cuántica para simular otros sistemas a su vez gobernados por las mismas leyes. Para lograr este objetivo se ha avanzado mucho en la manipulación y el control de la materia y sus interacciones, dando lugar a muchos opciones de ``hardware'' en los que sustentar las plataformas de simulación. Entre las opciones más prometedoras podemos citar las trampas de iones, la manipulación de fotones, los superconductores y los sólidos dopados \cite{ladd_quantum_2010}.
 
-Existen dos formas de construir estos simuladores: la simulación digital partiría de un sistema en el que se han implementado ciertas puertas lógicas cuánticas que permitirían la evaluación de cualquier expresión, mientras que en los simuladores analógicos dicha evolución se conseguiría directamente a través del ``hardware'', que estaría construido especificamente para esa tarea \cite{cirac_goals_2012}.
+Los simuladores cuánticos se dividen en dos grupos: por una parte la simulación digital partiría de un sistema en el que se han implementado ciertas puertas lógicas cuánticas que permitirían provocar una evolución genérica del estado inicial, mientras que en los simuladores analógicos dicha evolución se conseguiría directamente a través del ``hardware'', que estaría construido especificamente para esa tarea \cite{cirac_goals_2012}.
 
-Dado que aún no se posee una computadora cuántica lo suficientemente potente como para implementar en ella una teoría de gauge, los primeros trabajos en este sentido han usado la simulación analógica. En \cite{martinez_real-time_2016} se consigue implemetar el Hamiltoniano de QED en 1 dimensión (modelo de Schwinger) 
+Dado que aún no se posee una computadora cuántica lo suficientemente potente como para implementar en ella una teoría de gauge, los primeros trabajos en este sentido han usado la simulación analógica. En \cite{martinez_real-time_2016} se consigue implemetar el Hamiltoniano de QED en 1 dimensión (modelo de Schwinger): 
 \begin{align*}
 \hat{H}_{lat} &  = -iw\sum_{n=1}^{N-1}\left[\hat{\Phi}^{\dagger}_{n}e^{i\hat{\theta}_{n}}\hat{\Phi}_{n+1} \right] \\
  + & J\sum_{n=1}^{N-1}\hat{L}_{n}^2 + m \sum_{n=1}^{N}(-1)^{n}\hat{\Phi}^{\dagger}_{n}\hat{\Phi}_{n},
 \end{align*}
-donde el segundo término representa la energía del ``campo eléctrico'', el tercero la energía necesaria para crear un par electrón (partícula) positrón (antipartícula) y el primero la energía cinética de los electrones y positrones, que varía según el campo eléctrico debido al término $e^{i\hat{\theta}_{n}}$. En el estudio este Hamiltoniano se implementa en una red de cuatro iones cuyos acoplamientos se controlan por medio de pulsos láser globales e individuales (en \cite{davoudi_towards_2020} se puede encontrar una descripción más detallada de este proceso), de modo que la evolución temporal de los estos iones emula la del modelo de Schwinger, la figura \ref{SchwingerDensity} compara la densidad de partículas medida en la simulación con el resultado analítico. 
+donde el segundo término representa la energía del ``campo eléctrico'', el tercero la energía necesaria para crear un par electrón (partícula) positrón (antipartícula) y el primero la energía cinética de los electrones y positrones, que varía según el campo eléctrico debido al término $e^{i\hat{\theta}_{n}}$. Este Hamiltoniano se implementa en una red de cuatro iones cuyos acoplamientos se controlan por medio de pulsos láser globales e individuales (en \cite{davoudi_towards_2020} se puede encontrar una descripción más detallada de este proceso), de modo que la evolución temporal de los iones emula la del modelo de Schwinger, así, la figura \ref{SchwingerDensity} compara la densidad de partículas medida en la simulación con el resultado analítico exacto. 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.8]{Imágenes/Creación pares partícula-antipartícula.jpg}
 \end{center}
-\caption{Evolución de la densidad de partículas partiendo del estado fundamental (vacío) de la teoría de Schwinger mediante cálculo analítico (línea verde) y simulación en una red de cuatro iones (puntos morados). El estado del sistema se codifica mediate el espín de los iones, siendo espín ``hacia arriba'' en posiciones impares el vacío y en posiciones pares un positron, mientras que espín ``hacia abajo'' en posiciones pares indica el vacío y en posiciones impares un electrón.}
+\caption{Evolución de la densidad de partículas partiendo del estado fundamental (vacío) de la teoría de Schwinger mediante cálculo analítico (línea verde) y simulación en una línea de cuatro iones (puntos morados). El estado del sistema se codifica mediante el espín de los iones, siendo espín ``hacia arriba'' en posiciones impares el vacío y en posiciones pares un positrón, mientras que espín ``hacia abajo'' en posiciones pares indica el vacío y en posiciones impares un electrón.}
 \label{SchwingerDensity}
 \end{figure}
 
@@ -88,6 +88,8 @@ Computación Clásica & Tecnologías cuánticas \\
 \item Maduras y conocida
 \item Con resultados importantes
 \item Situaciones estáticas
+\item Basado en Lagrangiano
+\item Inadecuada para sistemas cuánticos complejos
 \end{enumerate}
 \end{minipage}
 
@@ -98,28 +100,8 @@ Computación Clásica & Tecnologías cuánticas \\
 \item En desarrollo
 \item Demostrada para sistemas sencillos
 \item Situaciones dinámicas
-\end{enumerate}
-\end{minipage}
-
-\end{tabular}
-
-
-\begin{tabular}{c|c}
-Computación Clásica & Tecnologías cuánticas \\
-\hline
-\begin{minipage}{0.2\textwidth}
-\begin{enumerate}
-\item[$4$] Basado en Lagrangiano
-\item[$5$] Inadecuada para sistemas cuánticos complejos
-\end{enumerate}
-\end{minipage}
-
-&
-
-\begin{minipage}{0.2\textwidth}
-\begin{enumerate}
-\item[$4$] Basado en Hamiltoniano
-\item[$5$] Pensada para estudiar la dinámica cuántica
+\item Basado en Hamiltoniano
+\item Pensada para estudiar la dinámica cuántica
 \end{enumerate}
 \end{minipage}
 
